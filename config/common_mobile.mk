@@ -29,7 +29,8 @@ PRODUCT_PACKAGES += \
     Eleven \
     Etar \
     Jelly \
-    Profiles
+    Profiles \
+    Seedvault
 
 # Accents
 PRODUCT_PACKAGES += \
