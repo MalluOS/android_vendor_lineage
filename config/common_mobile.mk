@@ -22,7 +22,6 @@ PRODUCT_PACKAGES += \
     Backgrounds \
     LockClock \
     Profiles \
-    TrebuchetQuickStep \
     WeatherProvider
 
 # Accents
