@@ -111,6 +111,8 @@ PRODUCT_PACKAGES += \
 
 # AOSP packages
 PRODUCT_PACKAGES += \
+    ExactCalculator \
+    Browser \
     Terminal
 
 # Music
