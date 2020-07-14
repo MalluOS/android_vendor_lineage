@@ -16,3 +16,7 @@ PRODUCT_PACKAGES += \
 # Recorder
 PRODUCT_PACKAGES += \
     Recorder
+
+# Permission
+PRODUCT_COPY_FILES += \
+    vendor/lineage/config/permissions/privapp-permissions-recorder.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-recorder.xml
