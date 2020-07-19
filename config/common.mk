@@ -210,6 +210,9 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/lineage/overlay
 DEVICE_PACKAGE_OVERLAYS += vendor/lineage/overlay/common
 
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,vendor/lineage/prebuilt/common/fonts,$(TARGET_COPY_OUT_PRODUCT)/fonts)
+
 PRODUCT_VERSION_MAJOR = 10
 PRODUCT_VERSION_MINOR = 0
 PRODUCT_VERSION_MAINTENANCE := 0
