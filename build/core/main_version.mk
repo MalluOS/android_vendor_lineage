@@ -13,6 +13,7 @@ ADDITIONAL_BUILD_PROPERTIES += \
     ro.lineagelegal.url=https://lineageos.org/legal \
     ro.malluos.version.flavor=MalluOS \
     ro.malluos.version.code=$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR) \
+    ro.malluos.build.version=$(MALLUOS_VERSION) \
     ro.malluos.build.variant=$(MALLUOS_BUILDTYPE)
 
 # LineageOS Platform Display Version
