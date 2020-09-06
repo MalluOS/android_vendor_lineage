@@ -120,7 +120,7 @@ PRODUCT_PACKAGES += \
 # AOSP packages
 PRODUCT_PACKAGES += \
     ExactCalculator \
-    Browser \
+    FireFoxLite \
     Terminal
 
 # Music
