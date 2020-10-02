@@ -58,6 +58,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural
 
+# Navbar
+PRODUCT_PACKAGES += \
+    GesturalNavigationOverlayLong \
+    GesturalNavigationOverlayMedium
+
 # Enable Android Beam on all targets
 PRODUCT_COPY_FILES += \
     vendor/lineage/config/permissions/android.software.nfc.beam.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.software.nfc.beam.xml
@@ -116,7 +121,7 @@ PRODUCT_PACKAGES += \
 # Aospa packages
 PRODUCT_PACKAGES += \
     ParanoidQuickStep
-				
+
 # Lineage packages
 PRODUCT_PACKAGES += \
     LineageParts \
