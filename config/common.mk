@@ -58,10 +58,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural
 
-# Navbar
+# NavBar Gestural Mode Overlays
 PRODUCT_PACKAGES += \
     GesturalNavigationOverlayLong \
-    GesturalNavigationOverlayMedium
+    GesturalNavigationOverlayMedium \
+    GesturalNavigationOverlayHidden
 
 # Enable Android Beam on all targets
 PRODUCT_COPY_FILES += \
