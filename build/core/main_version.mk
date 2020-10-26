@@ -12,6 +12,7 @@ ADDITIONAL_BUILD_PROPERTIES += \
     ro.modversion=$(LINEAGE_VERSION) \
     ro.lineagelegal.url=https://lineageos.org/legal \
     ro.malluos.version.flavor=MalluOS \
+    ro.malluos.build.version=$(MALLUOS_VERSION) \
     ro.malluos.version.code=$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR) \
     ro.malluos.build.variant=$(MALLUOS_BUILDTYPE)
 
