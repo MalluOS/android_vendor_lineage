@@ -30,8 +30,7 @@ PRODUCT_PACKAGES += \
     Etar \
     Jelly \
     LockClock \
-    Profiles \
-    WeatherProvider
+    Profiles 
 
 # Accents
 PRODUCT_PACKAGES += \
