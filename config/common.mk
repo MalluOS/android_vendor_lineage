@@ -113,6 +113,10 @@ PRODUCT_RESTRICT_VENDOR_FILES := false
 PRODUCT_PACKAGES += \
     Terminal
 
+# Aospa packages
+PRODUCT_PACKAGES += \
+    ParanoidQuickStep
+				
 # Lineage packages
 PRODUCT_PACKAGES += \
     LineageParts \
@@ -189,8 +193,7 @@ endif
 
 # Dex preopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
-    SystemUI \
-    TrebuchetQuickStep
+    SystemUI
 
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/lineage/overlay
 DEVICE_PACKAGE_OVERLAYS += vendor/lineage/overlay/common
