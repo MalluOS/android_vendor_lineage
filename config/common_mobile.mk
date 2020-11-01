@@ -29,8 +29,7 @@ PRODUCT_PACKAGES += \
     Eleven \
     Etar \
     Jelly \
-    LockClock \
-    Profiles 
+    Profiles
 
 # Accents
 PRODUCT_PACKAGES += \
